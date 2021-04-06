@@ -47,8 +47,16 @@ console.log(testVar,testLet,testConst);
 let v = " this is String";
 
 //데이터 타입 확인
+//인터프리터 방식이므로 실행시에만 오류확인이 가능하다.
 console.log(v, "-> " , typeof v);
 
 //데이터 타입 변환 
+// js의 기본 타입은 number string boolean
 v = 2021;
 console.log(v, "-> " , typeof v);
+
+//math 
+//min max avg sum 
+// round 반올림 , floor 버림 
+
+
